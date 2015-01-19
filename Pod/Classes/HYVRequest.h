@@ -14,7 +14,7 @@
 
 @property (nonatomic, readonly) NSDictionary *parameters;
 @property (nonatomic, readonly) NSString *path;
-@property (nonatomic, readonly) NSString *succesObjectClass
+@property (nonatomic, readonly) NSString *succesObjectClass;
 
 - (void)execute;
 
