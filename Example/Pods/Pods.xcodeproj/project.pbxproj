@@ -1,1056 +1,546 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>06AC6D4032E62B9D8D1FFA3E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7F28E974E6F48ACA3BE31AEB</string>
-				<string>ABA2E964F35A474C691591E9</string>
-				<string>EAA88D8BEAC0F65AF14908B2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0D02C77FDBA029B37F26D9FC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D84E14900B8B3767CF7E75EA</string>
-				<string>D492A688A3B4B63BDD781923</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>12E9A9562753F21B6D8561AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>134323E9DE68DD2D8115DC10</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BD924FB95C70CA5CE8AF02EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1580563B4BF7D289DB83DE48</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>HYVConfiguratorAFNetworking-Mantle</string>
-			<key>target</key>
-			<string>6D2454AB4652EC1F74191063</string>
-			<key>targetProxy</key>
-			<string>90F1E12476FF5CA59F396C16</string>
-		</dict>
-		<key>1FE8A3314372DCB78079E8E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2125DDE3800C5DC270CA2761</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5AF18B5E785A1B699BBB754C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>36E8C2FE61F084B5D5338922</string>
-				<string>92205ED9393EB70E1E1A633F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>1580563B4BF7D289DB83DE48</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle</string>
-			<key>productName</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle</string>
-			<key>productReference</key>
-			<string>EAA88D8BEAC0F65AF14908B2</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>23C65E7607F2D5BCCC78CE82</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3C157C8587B92335FA1E4FDA</string>
-				<string>58E1015215533DC5689EC9D0</string>
-				<string>844ABA943C1B8AACF85C397C</string>
-				<string>94B759548B0059544473573D</string>
-				<string>1FE8A3314372DCB78079E8E2</string>
-				<string>83329295C15B93661D80C6B7</string>
-				<string>D387E7751F12D52A64516B7C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-HYVConfiguratorAFNetworking-Mantle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>26FA400EDF940A20516E4A56</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>2B755034EBD069F82E7C2515</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2EE1F0B775DF3FBC2954410D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2F344283AC30CE565A195BB1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>26FA400EDF940A20516E4A56</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>365CBB4C7E79CDE0C8B591D5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E0E2FA38E0E1BE4D617915BE</string>
-				<string>B3068C71138E874DA6D99D1D</string>
-				<string>CDF5795351C04B30C0A04026</string>
-				<string>F2DF3EFCA5E5C93983E9BF14</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36E8C2FE61F084B5D5338922</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3AEA8B3DE63DA938FB5BF2DA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>39AC9F0B6F2A428A164A9D3E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2F344283AC30CE565A195BB1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3AEA8B3DE63DA938FB5BF2DA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CDF5795351C04B30C0A04026</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3C157C8587B92335FA1E4FDA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4121487796BA6452ABF70488</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>23C65E7607F2D5BCCC78CE82</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4676613B67BAD69BA18F9917</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B3068C71138E874DA6D99D1D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle/Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>48BC2B6881AB88C41DEEAF70</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0D02C77FDBA029B37F26D9FC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>134323E9DE68DD2D8115DC10</string>
-				<string>EDD45C183E36AAB8625FA9B8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>F1459B7493FB078960CE8A5A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle</string>
-			<key>productName</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle</string>
-			<key>productReference</key>
-			<string>ABA2E964F35A474C691591E9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>4BFB4B03D969DCC1B1FB00E6</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6E17A90374E96BC07E28605C</string>
-				<string>ED85E7182655092600F5E40B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>58E1015215533DC5689EC9D0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5AF18B5E785A1B699BBB754C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D85432F748BEF442738C952B</string>
-				<string>4676613B67BAD69BA18F9917</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>6D2454AB4652EC1F74191063</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4BFB4B03D969DCC1B1FB00E6</string>
-			<key>buildPhases</key>
-			<array>
-				<string>90E48D7EAA291C2EF4E58808</string>
-				<string>CC918DE01FA9F93CFEF030B4</string>
-				<string>B93324007567380D5813DEB3</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HYVConfiguratorAFNetworking-Mantle</string>
-			<key>productName</key>
-			<string>HYVConfiguratorAFNetworking-Mantle</string>
-			<key>productReference</key>
-			<string>7F28E974E6F48ACA3BE31AEB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>6E17A90374E96BC07E28605C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>77ACFA67BCB08F3FAD11EC72</key>
-		<dict>
-			<key>fileRef</key>
-			<string>26FA400EDF940A20516E4A56</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7F28E974E6F48ACA3BE31AEB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HYVConfiguratorAFNetworking-Mantle.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>83329295C15B93661D80C6B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>844ABA943C1B8AACF85C397C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85467374AA6B05A2AA91172A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C54D69E8B9A13ECB9E1EE434</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>90E48D7EAA291C2EF4E58808</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>90F1E12476FF5CA59F396C16</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>9CE594B74609C9949A1C5C75</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>6D2454AB4652EC1F74191063</string>
-			<key>remoteInfo</key>
-			<string>HYVConfiguratorAFNetworking-Mantle</string>
-		</dict>
-		<key>92205ED9393EB70E1E1A633F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>77ACFA67BCB08F3FAD11EC72</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>94B759548B0059544473573D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>95E3ADB8BFF1C33E3EEFA7EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>12E9A9562753F21B6D8561AE</string>
-				<string>85467374AA6B05A2AA91172A</string>
-				<string>39AC9F0B6F2A428A164A9D3E</string>
-				<string>06AC6D4032E62B9D8D1FFA3E</string>
-				<string>4121487796BA6452ABF70488</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9CE594B74609C9949A1C5C75</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>AF1B6B3E431022C9D4C40E7C</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>95E3ADB8BFF1C33E3EEFA7EE</string>
-			<key>productRefGroup</key>
-			<string>06AC6D4032E62B9D8D1FFA3E</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>6D2454AB4652EC1F74191063</string>
-				<string>48BC2B6881AB88C41DEEAF70</string>
-				<string>2125DDE3800C5DC270CA2761</string>
-			</array>
-		</dict>
-		<key>ABA2E964F35A474C691591E9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-HYVConfiguratorAFNetworking-Mantle.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AF1B6B3E431022C9D4C40E7C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2EE1F0B775DF3FBC2954410D</string>
-				<string>2B755034EBD069F82E7C2515</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B3068C71138E874DA6D99D1D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B93324007567380D5813DEB3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BD924FB95C70CA5CE8AF02EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>844ABA943C1B8AACF85C397C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C54D69E8B9A13ECB9E1EE434</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>365CBB4C7E79CDE0C8B591D5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>HYVConfiguratorAFNetworking-Mantle</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CC918DE01FA9F93CFEF030B4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CDF5795351C04B30C0A04026</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D387E7751F12D52A64516B7C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D492A688A3B4B63BDD781923</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D387E7751F12D52A64516B7C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D84E14900B8B3767CF7E75EA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>83329295C15B93661D80C6B7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D85432F748BEF442738C952B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B3068C71138E874DA6D99D1D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle/Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DEFDC11F13F7107FB2C9D20D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>26FA400EDF940A20516E4A56</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E0E2FA38E0E1BE4D617915BE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E4527460B8BF2C79ADA9C6DE</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>9CE594B74609C9949A1C5C75</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>2125DDE3800C5DC270CA2761</string>
-			<key>remoteInfo</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle</string>
-		</dict>
-		<key>EAA88D8BEAC0F65AF14908B2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>ED85E7182655092600F5E40B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EDD45C183E36AAB8625FA9B8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DEFDC11F13F7107FB2C9D20D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F1459B7493FB078960CE8A5A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle</string>
-			<key>target</key>
-			<string>2125DDE3800C5DC270CA2761</string>
-			<key>targetProxy</key>
-			<string>E4527460B8BF2C79ADA9C6DE</string>
-		</dict>
-		<key>F2DF3EFCA5E5C93983E9BF14</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>9CE594B74609C9949A1C5C75</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AEA8B3DE63DA938FB5BF2DA /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF5795351C04B30C0A04026 /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-dummy.m */; };
+		77ACFA67BCB08F3FAD11EC72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FA400EDF940A20516E4A56 /* Foundation.framework */; };
+		BD924FB95C70CA5CE8AF02EE /* Pods-HYVConfiguratorAFNetworking-Mantle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 844ABA943C1B8AACF85C397C /* Pods-HYVConfiguratorAFNetworking-Mantle-dummy.m */; };
+		CE3B6EC21A6CF2D600ACA387 /* HYVConfiguratorAFNetworking-Mantle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B6EC11A6CF2D600ACA387 /* HYVConfiguratorAFNetworking-Mantle.m */; };
+		DEFDC11F13F7107FB2C9D20D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FA400EDF940A20516E4A56 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90F1E12476FF5CA59F396C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CE594B74609C9949A1C5C75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D2454AB4652EC1F74191063;
+			remoteInfo = "HYVConfiguratorAFNetworking-Mantle";
+		};
+		E4527460B8BF2C79ADA9C6DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CE594B74609C9949A1C5C75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2125DDE3800C5DC270CA2761;
+			remoteInfo = "Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12E9A9562753F21B6D8561AE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1FE8A3314372DCB78079E8E2 /* Pods-HYVConfiguratorAFNetworking-Mantle-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYVConfiguratorAFNetworking-Mantle-resources.sh"; sourceTree = "<group>"; };
+		26FA400EDF940A20516E4A56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C157C8587B92335FA1E4FDA /* Pods-HYVConfiguratorAFNetworking-Mantle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYVConfiguratorAFNetworking-Mantle-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58E1015215533DC5689EC9D0 /* Pods-HYVConfiguratorAFNetworking-Mantle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYVConfiguratorAFNetworking-Mantle-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F28E974E6F48ACA3BE31AEB /* HYVConfiguratorAFNetworking-Mantle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HYVConfiguratorAFNetworking-Mantle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83329295C15B93661D80C6B7 /* Pods-HYVConfiguratorAFNetworking-Mantle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYVConfiguratorAFNetworking-Mantle.debug.xcconfig"; sourceTree = "<group>"; };
+		844ABA943C1B8AACF85C397C /* Pods-HYVConfiguratorAFNetworking-Mantle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYVConfiguratorAFNetworking-Mantle-dummy.m"; sourceTree = "<group>"; };
+		94B759548B0059544473573D /* Pods-HYVConfiguratorAFNetworking-Mantle-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYVConfiguratorAFNetworking-Mantle-environment.h"; sourceTree = "<group>"; };
+		ABA2E964F35A474C691591E9 /* libPods-HYVConfiguratorAFNetworking-Mantle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYVConfiguratorAFNetworking-Mantle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3068C71138E874DA6D99D1D /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-Private.xcconfig"; sourceTree = "<group>"; };
+		CDF5795351C04B30C0A04026 /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-dummy.m"; sourceTree = "<group>"; };
+		CE3B6EC01A6CF2D600ACA387 /* HYVConfiguratorAFNetworking-Mantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HYVConfiguratorAFNetworking-Mantle.h"; path = "Pod/Classes/HYVConfiguratorAFNetworking-Mantle.h"; sourceTree = "<group>"; };
+		CE3B6EC11A6CF2D600ACA387 /* HYVConfiguratorAFNetworking-Mantle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HYVConfiguratorAFNetworking-Mantle.m"; path = "Pod/Classes/HYVConfiguratorAFNetworking-Mantle.m"; sourceTree = "<group>"; };
+		D387E7751F12D52A64516B7C /* Pods-HYVConfiguratorAFNetworking-Mantle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYVConfiguratorAFNetworking-Mantle.release.xcconfig"; sourceTree = "<group>"; };
+		E0E2FA38E0E1BE4D617915BE /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle.xcconfig"; sourceTree = "<group>"; };
+		EAA88D8BEAC0F65AF14908B2 /* libPods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DF3EFCA5E5C93983E9BF14 /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92205ED9393EB70E1E1A633F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77ACFA67BCB08F3FAD11EC72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC918DE01FA9F93CFEF030B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD45C183E36AAB8625FA9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFDC11F13F7107FB2C9D20D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06AC6D4032E62B9D8D1FFA3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F28E974E6F48ACA3BE31AEB /* HYVConfiguratorAFNetworking-Mantle.bundle */,
+				ABA2E964F35A474C691591E9 /* libPods-HYVConfiguratorAFNetworking-Mantle.a */,
+				EAA88D8BEAC0F65AF14908B2 /* libPods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23C65E7607F2D5BCCC78CE82 /* Pods-HYVConfiguratorAFNetworking-Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				3C157C8587B92335FA1E4FDA /* Pods-HYVConfiguratorAFNetworking-Mantle-acknowledgements.markdown */,
+				58E1015215533DC5689EC9D0 /* Pods-HYVConfiguratorAFNetworking-Mantle-acknowledgements.plist */,
+				844ABA943C1B8AACF85C397C /* Pods-HYVConfiguratorAFNetworking-Mantle-dummy.m */,
+				94B759548B0059544473573D /* Pods-HYVConfiguratorAFNetworking-Mantle-environment.h */,
+				1FE8A3314372DCB78079E8E2 /* Pods-HYVConfiguratorAFNetworking-Mantle-resources.sh */,
+				83329295C15B93661D80C6B7 /* Pods-HYVConfiguratorAFNetworking-Mantle.debug.xcconfig */,
+				D387E7751F12D52A64516B7C /* Pods-HYVConfiguratorAFNetworking-Mantle.release.xcconfig */,
+			);
+			name = "Pods-HYVConfiguratorAFNetworking-Mantle";
+			path = "Target Support Files/Pods-HYVConfiguratorAFNetworking-Mantle";
+			sourceTree = "<group>";
+		};
+		2F344283AC30CE565A195BB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				26FA400EDF940A20516E4A56 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		365CBB4C7E79CDE0C8B591D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0E2FA38E0E1BE4D617915BE /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle.xcconfig */,
+				B3068C71138E874DA6D99D1D /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-Private.xcconfig */,
+				CDF5795351C04B30C0A04026 /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-dummy.m */,
+				F2DF3EFCA5E5C93983E9BF14 /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle";
+			sourceTree = "<group>";
+		};
+		39AC9F0B6F2A428A164A9D3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F344283AC30CE565A195BB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4121487796BA6452ABF70488 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23C65E7607F2D5BCCC78CE82 /* Pods-HYVConfiguratorAFNetworking-Mantle */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		85467374AA6B05A2AA91172A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C54D69E8B9A13ECB9E1EE434 /* HYVConfiguratorAFNetworking-Mantle */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		95E3ADB8BFF1C33E3EEFA7EE = {
+			isa = PBXGroup;
+			children = (
+				12E9A9562753F21B6D8561AE /* Podfile */,
+				85467374AA6B05A2AA91172A /* Development Pods */,
+				39AC9F0B6F2A428A164A9D3E /* Frameworks */,
+				06AC6D4032E62B9D8D1FFA3E /* Products */,
+				4121487796BA6452ABF70488 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C54D69E8B9A13ECB9E1EE434 /* HYVConfiguratorAFNetworking-Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				365CBB4C7E79CDE0C8B591D5 /* Support Files */,
+				CE3B6EC01A6CF2D600ACA387 /* HYVConfiguratorAFNetworking-Mantle.h */,
+				CE3B6EC11A6CF2D600ACA387 /* HYVConfiguratorAFNetworking-Mantle.m */,
+			);
+			name = "HYVConfiguratorAFNetworking-Mantle";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2125DDE3800C5DC270CA2761 /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF18B5E785A1B699BBB754C /* Build configuration list for PBXNativeTarget "Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle" */;
+			buildPhases = (
+				36E8C2FE61F084B5D5338922 /* Sources */,
+				92205ED9393EB70E1E1A633F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1580563B4BF7D289DB83DE48 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle";
+			productName = "Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle";
+			productReference = EAA88D8BEAC0F65AF14908B2 /* libPods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		48BC2B6881AB88C41DEEAF70 /* Pods-HYVConfiguratorAFNetworking-Mantle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D02C77FDBA029B37F26D9FC /* Build configuration list for PBXNativeTarget "Pods-HYVConfiguratorAFNetworking-Mantle" */;
+			buildPhases = (
+				134323E9DE68DD2D8115DC10 /* Sources */,
+				EDD45C183E36AAB8625FA9B8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1459B7493FB078960CE8A5A /* PBXTargetDependency */,
+			);
+			name = "Pods-HYVConfiguratorAFNetworking-Mantle";
+			productName = "Pods-HYVConfiguratorAFNetworking-Mantle";
+			productReference = ABA2E964F35A474C691591E9 /* libPods-HYVConfiguratorAFNetworking-Mantle.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D2454AB4652EC1F74191063 /* HYVConfiguratorAFNetworking-Mantle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BFB4B03D969DCC1B1FB00E6 /* Build configuration list for PBXNativeTarget "HYVConfiguratorAFNetworking-Mantle" */;
+			buildPhases = (
+				90E48D7EAA291C2EF4E58808 /* Sources */,
+				CC918DE01FA9F93CFEF030B4 /* Frameworks */,
+				B93324007567380D5813DEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HYVConfiguratorAFNetworking-Mantle";
+			productName = "HYVConfiguratorAFNetworking-Mantle";
+			productReference = 7F28E974E6F48ACA3BE31AEB /* HYVConfiguratorAFNetworking-Mantle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CE594B74609C9949A1C5C75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = AF1B6B3E431022C9D4C40E7C /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95E3ADB8BFF1C33E3EEFA7EE;
+			productRefGroup = 06AC6D4032E62B9D8D1FFA3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D2454AB4652EC1F74191063 /* HYVConfiguratorAFNetworking-Mantle */,
+				48BC2B6881AB88C41DEEAF70 /* Pods-HYVConfiguratorAFNetworking-Mantle */,
+				2125DDE3800C5DC270CA2761 /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B93324007567380D5813DEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		134323E9DE68DD2D8115DC10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD924FB95C70CA5CE8AF02EE /* Pods-HYVConfiguratorAFNetworking-Mantle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E8C2FE61F084B5D5338922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEA8B3DE63DA938FB5BF2DA /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E48D7EAA291C2EF4E58808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3B6EC21A6CF2D600ACA387 /* HYVConfiguratorAFNetworking-Mantle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1580563B4BF7D289DB83DE48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HYVConfiguratorAFNetworking-Mantle";
+			target = 6D2454AB4652EC1F74191063 /* HYVConfiguratorAFNetworking-Mantle */;
+			targetProxy = 90F1E12476FF5CA59F396C16 /* PBXContainerItemProxy */;
+		};
+		F1459B7493FB078960CE8A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle";
+			target = 2125DDE3800C5DC270CA2761 /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle */;
+			targetProxy = E4527460B8BF2C79ADA9C6DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B755034EBD069F82E7C2515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EE1F0B775DF3FBC2954410D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		4676613B67BAD69BA18F9917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3068C71138E874DA6D99D1D /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle/Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E17A90374E96BC07E28605C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D492A688A3B4B63BDD781923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D387E7751F12D52A64516B7C /* Pods-HYVConfiguratorAFNetworking-Mantle.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D84E14900B8B3767CF7E75EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83329295C15B93661D80C6B7 /* Pods-HYVConfiguratorAFNetworking-Mantle.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D85432F748BEF442738C952B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3068C71138E874DA6D99D1D /* Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle/Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ED85E7182655092600F5E40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D02C77FDBA029B37F26D9FC /* Build configuration list for PBXNativeTarget "Pods-HYVConfiguratorAFNetworking-Mantle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84E14900B8B3767CF7E75EA /* Debug */,
+				D492A688A3B4B63BDD781923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BFB4B03D969DCC1B1FB00E6 /* Build configuration list for PBXNativeTarget "HYVConfiguratorAFNetworking-Mantle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E17A90374E96BC07E28605C /* Debug */,
+				ED85E7182655092600F5E40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF18B5E785A1B699BBB754C /* Build configuration list for PBXNativeTarget "Pods-HYVConfiguratorAFNetworking-Mantle-HYVConfiguratorAFNetworking-Mantle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85432F748BEF442738C952B /* Debug */,
+				4676613B67BAD69BA18F9917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1B6B3E431022C9D4C40E7C /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE1F0B775DF3FBC2954410D /* Debug */,
+				2B755034EBD069F82E7C2515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CE594B74609C9949A1C5C75 /* Project object */;
+}
