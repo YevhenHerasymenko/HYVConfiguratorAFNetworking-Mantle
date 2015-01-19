@@ -6,8 +6,8 @@
 //
 //
 
-#import <Foundation/Foundation.h>
+#ifndef Pods_HYVConfiguratorAFNetworking_Mantle_h
+#define Pods_HYVConfiguratorAFNetworking_Mantle_h
 
-@interface HYVConfiguratorAFNetworking_Mantle : NSObject
 
-@end
+#endif
