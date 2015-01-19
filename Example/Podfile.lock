@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HYVConfiguratorAFNetworking-Mantle: 1582c61d14348b1944a6a7d6d03503c145cd23fa
+  HYVConfiguratorAFNetworking-Mantle: 8e09eebe2d9d9d7a098b6aeb37cf459e581215b5
 
 COCOAPODS: 0.35.0

@@ -10,18 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "HYVConfiguratorAFNetworking-Mantle"
   s.version          = "0.1.0"
-  s.summary          = "A short description of HYVConfiguratorAFNetworking-Mantle."
+  s.summary          = "Configurator for using AFNetworking with Mantle"
   s.description      = <<-DESC
-                       An optional longer description of HYVConfiguratorAFNetworking-Mantle
+                       Configurator for using AFNetworking with Mantle
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/HYVConfiguratorAFNetworking-Mantle"
+  s.homepage         = "https://github.com/LilushFess/HYVConfiguratorAFNetworking-Mantle.git"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Gerasymenko Yevgen" => "fess2036@ya.ru" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/HYVConfiguratorAFNetworking-Mantle.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/LilushFess/HYVConfiguratorAFNetworking-Mantle.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
