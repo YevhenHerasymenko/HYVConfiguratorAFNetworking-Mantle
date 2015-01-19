@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/LilushFess/HYVConfiguratorAFNetworking-Mantle"
+  s.homepage         = "https://github.com/LilushFess/HYVConfiguratorAFNetworking-Mantle.git"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Gerasymenko Yevgen" => "fess2036@ya.ru" }
