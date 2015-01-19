@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'HYVConfiguratorAFNetworking-Mantle', :exclusive => true do
+  pod "HYVConfiguratorAFNetworking-Mantle", :path => "../"
+
+  
+end
