@@ -10,6 +10,66 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>0CDEBD53F61FCE71C9DA1A2B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-HYVConfiguratorAFNetworking-Mantle.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-HYVConfiguratorAFNetworking-Mantle/Pods-HYVConfiguratorAFNetworking-Mantle.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1B2B3D38DE49EC2B195A1CF5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-HYVConfiguratorAFNetworking-Mantle.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-HYVConfiguratorAFNetworking-Mantle/Pods-HYVConfiguratorAFNetworking-Mantle.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1D2ED393457458C5A7AF4F5D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
 		<key>21C156AA46CBEBCF11B56162</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -44,6 +104,7 @@
 				<string>6003F5B5195388D20070C39A</string>
 				<string>6003F58C195388D20070C39A</string>
 				<string>6003F58B195388D20070C39A</string>
+				<string>89BAFF1ABDD4FCD6730E0F6D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -148,6 +209,7 @@
 				<string>6003F58F195388D20070C39A</string>
 				<string>6003F591195388D20070C39A</string>
 				<string>6003F5AF195388D20070C39A</string>
+				<string>667DA7626D9061A1408B332D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -169,13 +231,6 @@
 			<key>sourceTree</key>
 			<string>SDKROOT</string>
 		</dict>
-		<key>6003F58E195388D20070C39A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6003F58D195388D20070C39A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>6003F58F195388D20070C39A</key>
 		<dict>
 			<key>isa</key>
@@ -189,13 +244,6 @@
 			<key>sourceTree</key>
 			<string>SDKROOT</string>
 		</dict>
-		<key>6003F590195388D20070C39A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6003F58F195388D20070C39A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>6003F591195388D20070C39A</key>
 		<dict>
 			<key>isa</key>
@@ -208,206 +256,6 @@
 			<string>System/Library/Frameworks/UIKit.framework</string>
 			<key>sourceTree</key>
 			<string>SDKROOT</string>
-		</dict>
-		<key>6003F592195388D20070C39A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6003F591195388D20070C39A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6003F595195388D20070C39A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>HYVConfiguratorAFNetworking-Mantle-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6003F596195388D20070C39A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6003F597195388D20070C39A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6003F597195388D20070C39A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6003F598195388D20070C39A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6003F596195388D20070C39A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6003F599195388D20070C39A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6003F59A195388D20070C39A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6003F599195388D20070C39A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6003F59B195388D20070C39A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HYVConfiguratorAFNetworking-Mantle-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6003F59D195388D20070C39A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HYVAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6003F59E195388D20070C39A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6003F59D195388D20070C39A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6003F59F195388D20070C39A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6003F5A0195388D20070C39A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main_iPhone.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6003F5A0195388D20070C39A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main_iPhone.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6003F5A1195388D20070C39A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6003F59F195388D20070C39A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6003F5A2195388D20070C39A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6003F5A3195388D20070C39A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main_iPad.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6003F5A3195388D20070C39A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main_iPad.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6003F5A4195388D20070C39A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6003F5A2195388D20070C39A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6003F5A6195388D20070C39A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HYVViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6003F5A7195388D20070C39A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6003F5A6195388D20070C39A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6003F5A8195388D20070C39A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6003F5A9195388D20070C39A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6003F5A8195388D20070C39A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>6003F5AA195388D20070C39A</key>
 		<dict>
@@ -431,6 +279,7 @@
 				<string>6003F5B0195388D20070C39A</string>
 				<string>6003F5B2195388D20070C39A</string>
 				<string>6003F5B1195388D20070C39A</string>
+				<string>C463733CA912C8EC9310C869</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -456,9 +305,11 @@
 			<string>6003F5C2195388D20070C39A</string>
 			<key>buildPhases</key>
 			<array>
+				<string>1D2ED393457458C5A7AF4F5D</string>
 				<string>6003F5AA195388D20070C39A</string>
 				<string>6003F5AB195388D20070C39A</string>
 				<string>6003F5AC195388D20070C39A</string>
+				<string>7ABF270C3C8BE48A3F4BA226</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -750,54 +601,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>6003F5C0195388D20070C39A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>HYVConfiguratorAFNetworking-Mantle/HYVConfiguratorAFNetworking-Mantle-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HYVConfiguratorAFNetworking-Mantle/HYVConfiguratorAFNetworking-Mantle-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6003F5C1195388D20070C39A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>HYVConfiguratorAFNetworking-Mantle/HYVConfiguratorAFNetworking-Mantle-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HYVConfiguratorAFNetworking-Mantle/HYVConfiguratorAFNetworking-Mantle-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
 		<key>6003F5C2195388D20070C39A</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -814,6 +617,8 @@
 		</dict>
 		<key>6003F5C3195388D20070C39A</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>1B2B3D38DE49EC2B195A1CF5</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
@@ -847,6 +652,8 @@
 		</dict>
 		<key>6003F5C4195388D20070C39A</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>0CDEBD53F61FCE71C9DA1A2B</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
@@ -899,6 +706,43 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>667DA7626D9061A1408B332D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-HYVConfiguratorAFNetworking-Mantle.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>7ABF270C3C8BE48A3F4BA226</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-HYVConfiguratorAFNetworking-Mantle/Pods-HYVConfiguratorAFNetworking-Mantle-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
 		<key>84BA5FFA907133CDE79DCF66</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -911,6 +755,27 @@
 			<string>../README.md</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>89BAFF1ABDD4FCD6730E0F6D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1B2B3D38DE49EC2B195A1CF5</string>
+				<string>0CDEBD53F61FCE71C9DA1A2B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C463733CA912C8EC9310C869</key>
+		<dict>
+			<key>fileRef</key>
+			<string>667DA7626D9061A1408B332D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

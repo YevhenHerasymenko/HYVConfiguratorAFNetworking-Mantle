@@ -1,0 +1,14 @@
+PODS:
+  - HYVConfiguratorAFNetworking-Mantle (0.1.0)
+
+DEPENDENCIES:
+  - HYVConfiguratorAFNetworking-Mantle (from `../`)
+
+EXTERNAL SOURCES:
+  HYVConfiguratorAFNetworking-Mantle:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HYVConfiguratorAFNetworking-Mantle: 1582c61d14348b1944a6a7d6d03503c145cd23fa
+
+COCOAPODS: 0.35.0
