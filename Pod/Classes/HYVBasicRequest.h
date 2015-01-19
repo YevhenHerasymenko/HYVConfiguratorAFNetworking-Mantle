@@ -7,7 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HYVRequest.h"
+#import "HYVConfiguratorAFNetworking.h"
+#import "HYVBasicModel.h"
 
-@interface HYVBasicRequest : NSObject
+typedef void(^SuccessCompletion)(HYVBasicModel *response);
+typedef void(^ErrorCompletion)(HYVBasicModel *response);
+
+@interface HYVBasicRequest : NSObject <HYVRequest>
+
+@property (copy, nonatomic) SuccessCompletion successBlock;
+@property (copy, nonatomic) ErrorCompletion errorBlock;
+
+- (void)execute;
+- (void)executeSuccess:(id)responseObject;
+- (void)executeError:(NSError *)error;
+- (void)updateSessionWithResponse:(NSURLResponse *)response;
 
 @end

@@ -10,4 +10,8 @@
 
 @implementation HYVBasicModel
 
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+    return @{ @"message" : @"message" };
+}
+
 @end

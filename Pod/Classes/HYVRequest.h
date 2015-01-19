@@ -10,4 +10,12 @@
 
 @protocol HYVRequest <NSObject>
 
+@property (nonatomic,readwrite) BOOL executing;
+
+@property (nonatomic, readonly) NSDictionary *parameters;
+@property (nonatomic, readonly) NSString *path;
+@property (nonatomic, readonly) NSString *succesObjectClass
+
+- (void)execute;
+
 @end

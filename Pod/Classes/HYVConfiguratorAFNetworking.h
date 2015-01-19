@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AFHTTPSessionManager.h"
 
-@interface HYVConfiguratorAFNetworking : NSObject
+@interface HYVConfiguratorAFNetworking : AFHTTPSessionManager
+
+@property (copy, nonatomic) NSString *sessionKey;
+
++ (instancetype)sharedConfigurator;
+- (void)setBaseUrl:(NSURL *)baseUrl;
+- (void)setValue:(NSString *)value forHTTPHeaderField:(NSString *)field;
+- (void)updateSessionWithToken:(NSString *)token;
 
 @end

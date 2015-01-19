@@ -7,7 +7,11 @@
 //
 
 #import "MTLModel.h"
+#import "MTLJSONAdapter.h"
 
-@interface HYVBasicModel : MTLModel
+@interface HYVBasicModel : MTLModel<MTLJSONSerializing>
+
+@property (copy, nonatomic) NSString *message;
+@property (strong, nonatomic) NSNumber *objectId;
 
 @end
