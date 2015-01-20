@@ -20,23 +20,21 @@ PODS:
   - AFNetworking/UIKit (2.5.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - HYVConfiguratorAFNetworking-Mantle (0.1.0)
+  - HYVConfiguratorAFNetworking-Mantle (0.1.1.42):
+    - AFNetworking (~> 2.5.0)
+    - Mantle (~> 1.5.3)
   - Mantle (1.5.3):
     - Mantle/extobjc (= 1.5.3)
   - Mantle/extobjc (1.5.3)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.0)
-  - HYVConfiguratorAFNetworking-Mantle (from `../`)
+  - HYVConfiguratorAFNetworking-Mantle (~> 0.1.1.42)
   - Mantle (~> 1.5.3)
-
-EXTERNAL SOURCES:
-  HYVConfiguratorAFNetworking-Mantle:
-    :path: ../
 
 SPEC CHECKSUMS:
   AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
-  HYVConfiguratorAFNetworking-Mantle: 541768d0c2d35d2a03efbfbd4dbdbaedc1a0c69f
+  HYVConfiguratorAFNetworking-Mantle: 0c22d3c3d23f4974d1a12ebe94da3e50ba6c8b07
   Mantle: 8d84cacd6c2a69ff6fbce985a2b51298a5495de3
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.0.beta.1

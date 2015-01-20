@@ -1,0 +1,1 @@
+../../../HYVConfiguratorAFNetworking-Mantle/Pod/Classes/HYVBasicModel.h
