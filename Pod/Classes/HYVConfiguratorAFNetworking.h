@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFHTTPSessionManager.h"
+#import "AFNetworking.h"
 
 @interface HYVConfiguratorAFNetworking : AFHTTPSessionManager
 
