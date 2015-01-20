@@ -30,10 +30,6 @@
     return sharedConfigurator;
 }
 
-- (void)setBaseUrl:(NSURL *)baseUrl {
-    _baseUrl = baseUrl;
-}
-
 - (void)setValue:(NSString *)value forHTTPHeaderField:(NSString *)field {
     [self.requestSerializer setValue:value forHTTPHeaderField:field];
 }
