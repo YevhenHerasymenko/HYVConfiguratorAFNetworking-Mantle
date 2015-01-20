@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HYVSignUpRequest.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    HYVSignUpRequest *request = [[HYVSignUpRequest alloc] initWithEmail:@"fess222@dsf.rt" password:@"sdfdsf34234" firstName:@"qwerasdf" lastName:@"asdfsfds" birthDay:@"1970-12-12" gender:1 completion:^(HYVBasicModel *response) {
+        NSLog(@"%@", response);
+    } error:^(HYVBasicModel *response) {
+        NSLog(@"%@", response);
+    }];
+    [request execute];
 }
 
 - (void)didReceiveMemoryWarning {

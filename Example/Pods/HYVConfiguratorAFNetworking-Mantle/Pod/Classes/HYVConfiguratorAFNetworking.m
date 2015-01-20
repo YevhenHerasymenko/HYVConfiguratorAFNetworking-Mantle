@@ -31,7 +31,7 @@
 }
 
 - (void)setBaseUrl:(NSURL *)baseUrl {
-    [self setBaseUrl:baseUrl];
+    _baseUrl = baseUrl;
 }
 
 - (void)setValue:(NSString *)value forHTTPHeaderField:(NSString *)field {

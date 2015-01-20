@@ -50,20 +50,19 @@
 
 // HYVConfiguratorAFNetworking-Mantle
 #define COCOAPODS_POD_AVAILABLE_HYVConfiguratorAFNetworking_Mantle
-// This library does not follow semantic-versioning,
-// so we were not able to define version macros.
-// Please contact the author.
-// Version: 0.1.1.42.
+#define COCOAPODS_VERSION_MAJOR_HYVConfiguratorAFNetworking_Mantle 0
+#define COCOAPODS_VERSION_MINOR_HYVConfiguratorAFNetworking_Mantle 1
+#define COCOAPODS_VERSION_PATCH_HYVConfiguratorAFNetworking_Mantle 2
 
 // Mantle
 #define COCOAPODS_POD_AVAILABLE_Mantle
 #define COCOAPODS_VERSION_MAJOR_Mantle 1
 #define COCOAPODS_VERSION_MINOR_Mantle 5
-#define COCOAPODS_VERSION_PATCH_Mantle 3
+#define COCOAPODS_VERSION_PATCH_Mantle 4
 
 // Mantle/extobjc
 #define COCOAPODS_POD_AVAILABLE_Mantle_extobjc
 #define COCOAPODS_VERSION_MAJOR_Mantle_extobjc 1
 #define COCOAPODS_VERSION_MINOR_Mantle_extobjc 5
-#define COCOAPODS_VERSION_PATCH_Mantle_extobjc 3
+#define COCOAPODS_VERSION_PATCH_Mantle_extobjc 4
 

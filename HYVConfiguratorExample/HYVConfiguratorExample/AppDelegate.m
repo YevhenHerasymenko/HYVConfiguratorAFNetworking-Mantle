@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <HYVConfiguratorAFNetworking.h>
+#import <HYVConfiguratorAFNetworking-Mantle.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[HYVConfiguratorAFNetworking sharedConfigurator] setBaseUrl:[NSURL URLWithString:@"http://test.toonightapp.com"]];
+    [HYVConfiguratorAFNetworking sharedConfigurator].sessionKey = @"Session-Token";
     return YES;
 }
 
