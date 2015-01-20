@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HYVConfiguratorAFNetworking-Mantle"
-  s.version          = "0.1.0.1"
+  s.version          = "0.1.1.1"
   s.summary          = "Configurator for using AFNetworking with Mantle"
   s.description      = <<-DESC
                        Configurator for using AFNetworking with Mantle
@@ -34,5 +34,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'AFNetworking', '~> 2.5'
 end
