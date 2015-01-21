@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HYVConfiguratorAFNetworking-Mantle"
-  s.version          = "0.1.2.2"
+  s.version          = "0.1.3"
   s.summary          = "Configurator for using AFNetworking with Mantle"
   s.description      = <<-DESC
                        Configurator for using AFNetworking with Mantle

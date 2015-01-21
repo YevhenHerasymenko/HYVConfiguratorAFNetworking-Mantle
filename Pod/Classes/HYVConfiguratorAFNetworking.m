@@ -7,6 +7,8 @@
 //
 
 #import "HYVConfiguratorAFNetworking.h"
+#import "AFNetworkActivityIndicatorManager.h"
+
 
 @interface HYVConfiguratorAFNetworking()
 
@@ -18,16 +20,23 @@
     static HYVConfiguratorAFNetworking *sharedConfigurator = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        sharedConfigurator = [[HYVConfiguratorAFNetworking alloc] init];
-        sharedConfigurator.requestSerializer = [[AFJSONRequestSerializer alloc] init];
+        sharedConfigurator = [[HYVConfiguratorAFNetworking alloc] initWithBaseURL:nil];
         
         NSMutableSet *acceptableContentTypes = [sharedConfigurator.responseSerializer.acceptableContentTypes mutableCopy];
-        [acceptableContentTypes addObject:@"text/html"];
+        
         [acceptableContentTypes addObject:@"text/plain"];
+        [acceptableContentTypes addObject:@"application/json"];
+        [acceptableContentTypes addObject:@"text/html"];
+        [acceptableContentTypes addObject:@"application/x-www-form-urlencoded"];
         sharedConfigurator.responseSerializer.acceptableContentTypes = [acceptableContentTypes copy];
+        [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
     });
     
     return sharedConfigurator;
+}
+
+- (void)setBaseUrl:(NSURL *)url {
+    [self setValue:url forKey:@"baseURL"];
 }
 
 - (void)setValue:(NSString *)value forHTTPHeaderField:(NSString *)field {

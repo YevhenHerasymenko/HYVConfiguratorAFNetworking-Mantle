@@ -13,10 +13,10 @@
 - (void)execute {
     [[HYVConfiguratorAFNetworking sharedConfigurator] GET:self.path
                                                parameters:self.parameters
-                                            success:^(NSURLSessionDataTask *task, id responseObject) {
+                                            success:^(AFHTTPRequestOperation *operation, id responseObject) {
                                                 [self executeSuccess:responseObject];
-                                                [self updateSessionWithResponse:task.response];
-    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+                                                [self updateSessionWithResponse:operation.response];
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         [self executeError:error];
     }];
 }

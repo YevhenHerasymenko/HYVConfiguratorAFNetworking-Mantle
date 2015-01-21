@@ -14,12 +14,27 @@
 @synthesize path;
 @synthesize executing;
 @synthesize succesObjectClass;
+@synthesize errorObjectClass;
 
 - (void)execute { }
 
-- (void)executeSuccess:(id)responseObject { }
+- (void)executeSuccess:(id)responseObject {
+    NSError *parsingSuccess;
+    HYVBasicModel *successObject = [MTLJSONAdapter modelOfClass:NSClassFromString(self.succesObjectClass).class fromJSONDictionary:responseObject error:&parsingSuccess];
+    self.successBlock(successObject);
+}
 
-- (void)executeError:(NSError *)error { }
+- (void)executeError:(NSError *)error {
+    NSError* errorJson;
+    NSDictionary* json = [NSJSONSerialization JSONObjectWithData:[error.userInfo valueForKey:@"com.alamofire.serialization.response.error.data"]
+                                                         options:kNilOptions
+                                                           error:&errorJson];
+    NSHTTPURLResponse *response = [error.userInfo valueForKey:@"com.alamofire.serialization.response.error.response"];
+    NSLog (@"Error status code:%ld", (long)response.statusCode);
+    NSError *parsingError;
+    HYVBasicModel *errorObject = [MTLJSONAdapter modelOfClass:NSClassFromString(self.errorObjectClass).class fromJSONDictionary:json error:&parsingError];
+    self.errorBlock(errorObject);
+}
 
 
 - (void)updateSessionWithResponse:(NSURLResponse *)response {

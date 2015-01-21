@@ -9,12 +9,15 @@
 #import <Foundation/Foundation.h>
 #import "AFNetworking.h"
 
-@interface HYVConfiguratorAFNetworking : AFHTTPSessionManager
+static const NSString * kHYVConfiguratorBaseUrl;
+
+@interface HYVConfiguratorAFNetworking : AFHTTPRequestOperationManager
 
 @property (copy, nonatomic) NSString *sessionKey;
 
 + (instancetype)sharedConfigurator;
 - (void)setValue:(NSString *)value forHTTPHeaderField:(NSString *)field;
+- (void)setBaseUrl:(NSURL *)url;
 - (void)updateSessionWithToken:(NSString *)token;
 
 @end
