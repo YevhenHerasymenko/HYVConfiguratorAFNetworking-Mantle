@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "HYVSignUpRequest.h"
+#import "HYVGoogleSearchRequest.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    HYVSignUpRequest *request = [[HYVSignUpRequest alloc] initWithEmail:@"fess222@dsf.rt" password:@"sdfdsf34234" firstName:@"qwerasdf" lastName:@"asdfsfds" birthDay:@"1970-12-12" gender:1 completion:^(HYVBasicModel *response) {
+    HYVSignUpRequest *request = [[HYVSignUpRequest alloc] initWithEmail:@"fdsf@dslf.rt54" password:@"sdfdf4234" firstName:@"werasdf" lastName:@"asdfsfds" birthDay:@"1997-01-21" gender:2 completion:^(HYVBasicModel *response) {
         NSLog(@"%@", response);
     } error:^(HYVBasicModel *response) {
         NSLog(@"%@", response);

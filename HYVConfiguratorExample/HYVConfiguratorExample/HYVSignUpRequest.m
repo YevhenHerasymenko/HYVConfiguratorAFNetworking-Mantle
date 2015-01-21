@@ -7,6 +7,7 @@
 //
 
 #import "HYVSignUpRequest.h"
+#import "HYVUser.h"
 
 @interface HYVSignUpRequest()
 
@@ -43,7 +44,15 @@
 }
 
 - (NSString *)path {
-    return @"/api/sessions/signup.json";
+    return @"api/users/sign_up.json";
+}
+
+- (NSString *)errorObjectClass {
+    return @"HYVBasicModel";
+}
+
+- (NSString *)succesObjectClass {
+    return @"HYVUser";
 }
 
 - (NSDictionary *)parameters {
@@ -58,9 +67,21 @@
                                                                                        }];
     return parametrs;
 }
-
-- (void) executeSuccess:(id)responseObject {
-    
+/*
+{
+    "user[birthday]" = "1997-01-21";
+    "user[device_type]" = ios;
+    "user[email]" = "fghfgh@sdf.tu";
+    "user[first_name]" = fghfghfghfghf;
+    "user[gender]" = 1;
+    "user[last_name]" = fghfghfg;
+    "user[password]" = dffdg13434;
 }
+*/
+//- (void)executeSuccess:(id)responseObject {
+//    NSError *error = nil;
+//    HYVUser *user = [MTLJSONAdapter modelOfClass:HYVUser.class fromJSONDictionary:responseObject error:&error];
+//    self.successBlock(user);
+//}
 
 @end
