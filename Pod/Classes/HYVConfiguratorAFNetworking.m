@@ -30,6 +30,22 @@
         [acceptableContentTypes addObject:@"application/x-www-form-urlencoded"];
         sharedConfigurator.responseSerializer.acceptableContentTypes = [acceptableContentTypes copy];
         [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
+        
+        NSOperationQueue *operationQueue = sharedConfigurator.operationQueue;
+        [sharedConfigurator.reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+            switch (status) {
+                case AFNetworkReachabilityStatusReachableViaWWAN:
+                case AFNetworkReachabilityStatusReachableViaWiFi:
+                    [operationQueue setSuspended:NO];
+                    break;
+                case AFNetworkReachabilityStatusNotReachable:
+                default:
+                    [operationQueue setSuspended:YES];
+                    break;
+            }
+        }];
+        
+        [sharedConfigurator.reachabilityManager startMonitoring];
     });
     
     return sharedConfigurator;

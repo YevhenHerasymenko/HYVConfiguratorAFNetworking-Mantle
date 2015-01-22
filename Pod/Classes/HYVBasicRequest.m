@@ -16,7 +16,13 @@
 @synthesize succesObjectClass;
 @synthesize errorObjectClass;
 
+static NSString *const kErrorUserInfoJSONKey = @"com.alamofire.serialization.response.error.data";
+static NSString *const kErrorUserInfoResponseKey = @"com.alamofire.serialization.response.error.response";
+static NSString *const kErrorUserInfoLocalizedDescriptoeResponseKey = @"NSLocalizedDescription";
+
 - (void)execute { }
+
+#pragma mark - Success Response
 
 - (void)executeSuccess:(id)responseObject {
     NSError *parsingSuccess;
@@ -24,18 +30,44 @@
     self.successBlock(successObject);
 }
 
+
+
+#pragma mark - Error Response
+
 - (void)executeError:(NSError *)error {
+    if ([error.userInfo valueForKey:kErrorUserInfoJSONKey] && [error.userInfo valueForKey:kErrorUserInfoResponseKey]) {
+        [self mappingServerErrorResponseWithError:error];
+    }
+    else {
+        [self mappingUserError:error];
+    }
+}
+
+- (void)mappingServerErrorResponseWithError:(NSError *)error {
     NSError* errorJson;
-    NSDictionary* json = [NSJSONSerialization JSONObjectWithData:[error.userInfo valueForKey:@"com.alamofire.serialization.response.error.data"]
+    NSError *parsingError;
+    NSDictionary* json = [NSJSONSerialization JSONObjectWithData:[error.userInfo valueForKey:kErrorUserInfoJSONKey]
                                                          options:kNilOptions
                                                            error:&errorJson];
-    NSHTTPURLResponse *response = [error.userInfo valueForKey:@"com.alamofire.serialization.response.error.response"];
-    NSLog (@"Error status code:%ld", (long)response.statusCode);
-    NSError *parsingError;
     HYVBasicModel *errorObject = [MTLJSONAdapter modelOfClass:NSClassFromString(self.errorObjectClass).class fromJSONDictionary:json error:&parsingError];
+#ifdef DEBUG
+    NSHTTPURLResponse *response = [error.userInfo valueForKey:kErrorUserInfoResponseKey];
+    NSLog (@"Error status code:%ld", (long)response.statusCode);
+#endif
     self.errorBlock(errorObject);
 }
 
+- (void)mappingUserError:(NSError *)error {
+    HYVBasicModel *errorObject = [[HYVBasicModel alloc] init];
+    errorObject.message = [error.userInfo valueForKey:kErrorUserInfoLocalizedDescriptoeResponseKey];
+#ifdef DEBUG
+    NSLog (@"%@", errorObject.message);
+#endif
+    self.errorBlock(errorObject);
+    
+}
+
+#pragma mark - Session
 
 - (void)updateSessionWithResponse:(NSURLResponse *)response {
     NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse*)response;
