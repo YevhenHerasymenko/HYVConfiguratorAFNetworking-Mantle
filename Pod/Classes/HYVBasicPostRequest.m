@@ -14,10 +14,16 @@
     [[HYVConfiguratorAFNetworking sharedConfigurator] POST:self.path
                                                parameters:self.parameters
                                                   success:^(AFHTTPRequestOperation *operation, id responseObject) {
-                                                      [self executeSuccess:responseObject];
+                                                     // [self executeSuccess:responseObject];
                                                       [self updateSessionWithResponse:operation.response];
+                                                      NSError *error = nil;
+                                                      NSDictionary *jsonArray = [NSJSONSerialization JSONObjectWithData:operation.request.HTTPBody options:kNilOptions error:&error];
+
                                                   } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                                                      [self executeError:error];
+                                                     // [self executeError:error];
+                                                      NSError *errorJ = nil;
+                                                      NSDictionary *jsonArray = [NSJSONSerialization JSONObjectWithData:operation.request.HTTPBody options:kNilOptions error:&errorJ];
+                                                      
                                                   }];
 }
 

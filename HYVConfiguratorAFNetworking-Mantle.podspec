@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HYVConfiguratorAFNetworking-Mantle"
-  s.version          = "0.1.3.1"
+  s.version          = "0.1.3.2"
   s.summary          = "Configurator for using AFNetworking with Mantle"
   s.description      = <<-DESC
                        Configurator for using AFNetworking with Mantle
@@ -28,9 +28,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'HYVConfiguratorAFNetworking-Mantle' => ['Pod/Assets/*.png']
-  }
+#  s.resource_bundles = {
+#    'HYVConfiguratorAFNetworking-Mantle' => ['Pod/Assets/*.png']
+#  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -22,6 +22,8 @@
     dispatch_once(&onceToken, ^{
         sharedConfigurator = [[HYVConfiguratorAFNetworking alloc] initWithBaseURL:nil];
         
+        sharedConfigurator.requestSerializer = [AFJSONRequestSerializer serializer];
+        
         NSMutableSet *acceptableContentTypes = [sharedConfigurator.responseSerializer.acceptableContentTypes mutableCopy];
         
         [acceptableContentTypes addObject:@"text/plain"];

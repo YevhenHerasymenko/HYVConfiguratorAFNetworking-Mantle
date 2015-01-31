@@ -44,7 +44,7 @@
 }
 
 - (NSString *)path {
-    return @"api/users/sign_up.json";
+    return @"api/users/sign_in.json";
 }
 
 - (NSString *)errorObjectClass {
@@ -56,16 +56,15 @@
 }
 
 - (NSDictionary *)parameters {
-    NSMutableDictionary *parametrs = [[NSMutableDictionary alloc] initWithDictionary:@{
-                                                                                       @"user[email]" : self.email,
-                                                                                       @"user[first_name]" : self.firstName,
-                                                                                       @"user[birthday]" : self.birthDay,
-                                                                                       @"user[last_name]" : self.lastName,
-                                                                                       @"user[password]" : self.password,
-                                                                                       @"user[gender]": self.gender,
-                                                                                       @"user[device_type]" : @"ios"
-                                                                                       }];
-    return parametrs;
+    return @{ @"user" : @{ @"email" : self.email,
+                           @"first_name" : self.firstName,
+                           @"birthday" : self.birthDay,
+                           @"last_name" : self.lastName,
+                           @"password" : self.password,
+                           @"gender": self.gender,
+                           @"device_type" : @"ios"}
+              
+              };
 }
 /*
 {

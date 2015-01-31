@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    HYVSignUpRequest *request = [[HYVSignUpRequest alloc] initWithEmail:@"fdsf@dslf.rt54" password:@"sdfdf4234" firstName:@"werasdf" lastName:@"asdfsfds" birthDay:@"1997-01-21" gender:2 completion:^(HYVBasicModel *response) {
+    HYVSignUpRequest *request = [[HYVSignUpRequest alloc] initWithEmail:@"sfghfghfghf@dslf.rt54" password:@"sdfdf4234" firstName:@"werasdf" lastName:@"asdfsfds" birthDay:@"1997-01-21" gender:2 completion:^(HYVBasicModel *response) {
         NSLog(@"%@", response);
     } error:^(HYVBasicModel *response) {
         NSLog(@"%@", response);

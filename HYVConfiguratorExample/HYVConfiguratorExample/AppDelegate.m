@@ -17,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [[HYVConfiguratorAFNetworking sharedConfigurator] setBaseUrl:[NSURL URLWithString:@"http://107.170.222.62:8080"]];
+    [[HYVConfiguratorAFNetworking sharedConfigurator] setBaseUrl:[NSURL URLWithString:@"http://192.168.1.143:8080/"]];
     [HYVConfiguratorAFNetworking sharedConfigurator].sessionKey = @"Session-Token";
     return YES;
 }

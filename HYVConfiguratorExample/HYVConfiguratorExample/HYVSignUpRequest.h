@@ -7,6 +7,7 @@
 //
 
 #import "HYVBasicPostRequest.h"
+#import "HYVBasicGetRequest.h"
 
 @interface HYVSignUpRequest : HYVBasicPostRequest
 
