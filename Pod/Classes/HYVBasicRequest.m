@@ -30,8 +30,6 @@ static NSString *const kErrorUserInfoLocalizedDescriptoeResponseKey = @"NSLocali
     self.successBlock(successObject);
 }
 
-
-
 #pragma mark - Error Response
 
 - (void)executeError:(NSError *)error {
@@ -54,6 +52,7 @@ static NSString *const kErrorUserInfoLocalizedDescriptoeResponseKey = @"NSLocali
     NSHTTPURLResponse *response = [error.userInfo valueForKey:kErrorUserInfoResponseKey];
     NSLog (@"Error status code:%ld", (long)response.statusCode);
 #endif
+    errorObject.objectId = [NSNumber numberWithInteger:response.statusCode];
     self.errorBlock(errorObject);
 }
 
