@@ -48,8 +48,8 @@ static NSString *const kErrorUserInfoLocalizedDescriptoeResponseKey = @"NSLocali
                                                          options:kNilOptions
                                                            error:&errorJson];
     HYVBasicModel *errorObject = [MTLJSONAdapter modelOfClass:NSClassFromString(self.errorObjectClass).class fromJSONDictionary:json error:&parsingError];
-#ifdef DEBUG
     NSHTTPURLResponse *response = [error.userInfo valueForKey:kErrorUserInfoResponseKey];
+#ifdef DEBUG
     NSLog (@"Error status code:%ld", (long)response.statusCode);
 #endif
     errorObject.objectId = [NSNumber numberWithInteger:response.statusCode];
