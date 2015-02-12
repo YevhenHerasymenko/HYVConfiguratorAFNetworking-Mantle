@@ -12,6 +12,8 @@
 
 @interface HYVConfiguratorAFNetworking()
 
+@property (readwrite, strong, nonatomic) NSString *baseUrlString;
+
 @end
 
 @implementation HYVConfiguratorAFNetworking
@@ -55,6 +57,7 @@
 
 - (void)setBaseUrl:(NSURL *)url {
     [self setValue:url forKey:@"baseURL"];
+    self.baseUrlString = url.absoluteString;
 }
 
 - (void)setValue:(NSString *)value forHTTPHeaderField:(NSString *)field {

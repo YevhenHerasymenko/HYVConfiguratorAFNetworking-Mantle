@@ -16,7 +16,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 HYVConfiguratorAFNetworking-Mantle is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod "HYVConfiguratorAFNetworking-Mantle"
+    pod 'HYVConfiguratorAFNetworking-Mantle'
 
 ## Author
 

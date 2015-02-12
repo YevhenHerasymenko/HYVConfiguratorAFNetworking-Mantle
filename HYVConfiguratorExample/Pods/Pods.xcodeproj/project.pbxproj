@@ -85,6 +85,10 @@
 		CD913CDC1537DF17EA75C090 /* MTLModel+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD0DDBA8A5003162DA2F00A /* MTLModel+NSCoding.h */; };
 		CED465EB1A6FEF3F00F65E9D /* HYVBasicPutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CED465EA1A6FEF3F00F65E9D /* HYVBasicPutRequest.m */; };
 		CED465EE1A6FEF6000F65E9D /* HYVBasicDeleteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CED465ED1A6FEF6000F65E9D /* HYVBasicDeleteRequest.m */; };
+		CEDC1DCB1A8CA785004C2F4E /* HYVError.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDC1DCA1A8CA785004C2F4E /* HYVError.m */; };
+		CEDC1DCE1A8CA8C7004C2F4E /* HYVPostWithImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDC1DCD1A8CA8C7004C2F4E /* HYVPostWithImageRequest.m */; };
+		CEDC1DD11A8CAA0F004C2F4E /* HYVBasicRequestWithImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDC1DD01A8CAA0F004C2F4E /* HYVBasicRequestWithImage.m */; };
+		CEDC1DD41A8CAB09004C2F4E /* HYVPutWithImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDC1DD31A8CAB09004C2F4E /* HYVPutWithImageRequest.m */; };
 		D3C9E0FD9A7C03CDFB63AD0F /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B9603B02014DE5B1B85526 /* MTLJSONAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D4AF1B6C813AE186546D0718 /* HYVBasicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED207306FC5F078AE049F549 /* HYVBasicModel.m */; };
 		D6604D1DF649C15BFE98E698 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 390FB4AD594BEEC35E1913A5 /* AFURLResponseSerialization.h */; };
@@ -241,6 +245,14 @@
 		CED465EA1A6FEF3F00F65E9D /* HYVBasicPutRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVBasicPutRequest.m; sourceTree = "<group>"; };
 		CED465EC1A6FEF6000F65E9D /* HYVBasicDeleteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYVBasicDeleteRequest.h; sourceTree = "<group>"; };
 		CED465ED1A6FEF6000F65E9D /* HYVBasicDeleteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVBasicDeleteRequest.m; sourceTree = "<group>"; };
+		CEDC1DC91A8CA785004C2F4E /* HYVError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYVError.h; sourceTree = "<group>"; };
+		CEDC1DCA1A8CA785004C2F4E /* HYVError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVError.m; sourceTree = "<group>"; };
+		CEDC1DCC1A8CA8C7004C2F4E /* HYVPostWithImageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYVPostWithImageRequest.h; sourceTree = "<group>"; };
+		CEDC1DCD1A8CA8C7004C2F4E /* HYVPostWithImageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVPostWithImageRequest.m; sourceTree = "<group>"; };
+		CEDC1DCF1A8CAA0F004C2F4E /* HYVBasicRequestWithImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYVBasicRequestWithImage.h; sourceTree = "<group>"; };
+		CEDC1DD01A8CAA0F004C2F4E /* HYVBasicRequestWithImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVBasicRequestWithImage.m; sourceTree = "<group>"; };
+		CEDC1DD21A8CAB09004C2F4E /* HYVPutWithImageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYVPutWithImageRequest.h; sourceTree = "<group>"; };
+		CEDC1DD31A8CAB09004C2F4E /* HYVPutWithImageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVPutWithImageRequest.m; sourceTree = "<group>"; };
 		CF683A0F9BBF0845BB348ED0 /* HYVBasicGetRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYVBasicGetRequest.m; sourceTree = "<group>"; };
 		CFECE754C7B9572FD3894175 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = Mantle/extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
 		D18B8294685B083728D543FA /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
@@ -443,6 +455,14 @@
 				B1AED3A4AB5F6968F920E7D5 /* HYVConfiguratorAFNetworking.m */,
 				232BD68C36C7DCB0AC121A10 /* HYVConfiguratorAFNetworking-Mantle.h */,
 				BB5DDE991641F3A9BD211800 /* HYVRequest.h */,
+				CEDC1DC91A8CA785004C2F4E /* HYVError.h */,
+				CEDC1DCA1A8CA785004C2F4E /* HYVError.m */,
+				CEDC1DCC1A8CA8C7004C2F4E /* HYVPostWithImageRequest.h */,
+				CEDC1DCD1A8CA8C7004C2F4E /* HYVPostWithImageRequest.m */,
+				CEDC1DD21A8CAB09004C2F4E /* HYVPutWithImageRequest.h */,
+				CEDC1DD31A8CAB09004C2F4E /* HYVPutWithImageRequest.m */,
+				CEDC1DCF1A8CAA0F004C2F4E /* HYVBasicRequestWithImage.h */,
+				CEDC1DD01A8CAA0F004C2F4E /* HYVBasicRequestWithImage.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -861,6 +881,10 @@
 			files = (
 				CED465EE1A6FEF6000F65E9D /* HYVBasicDeleteRequest.m in Sources */,
 				CED465EB1A6FEF3F00F65E9D /* HYVBasicPutRequest.m in Sources */,
+				CEDC1DD41A8CAB09004C2F4E /* HYVPutWithImageRequest.m in Sources */,
+				CEDC1DCB1A8CA785004C2F4E /* HYVError.m in Sources */,
+				CEDC1DCE1A8CA8C7004C2F4E /* HYVPostWithImageRequest.m in Sources */,
+				CEDC1DD11A8CAA0F004C2F4E /* HYVBasicRequestWithImage.m in Sources */,
 				AB5277D5196F34E8E7AE3665 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

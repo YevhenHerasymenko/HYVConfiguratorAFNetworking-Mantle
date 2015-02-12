@@ -7,6 +7,7 @@
 //
 
 #import "HYVBasicRequest.h"
+#import "HYVError.h"
 
 @implementation HYVBasicRequest
 
@@ -57,7 +58,7 @@ static NSString *const kErrorUserInfoLocalizedDescriptoeResponseKey = @"NSLocali
 }
 
 - (void)mappingUserError:(NSError *)error {
-    HYVBasicModel *errorObject = [[HYVBasicModel alloc] init];
+    HYVError *errorObject = [[HYVError alloc] init];
     errorObject.message = [error.userInfo valueForKey:kErrorUserInfoLocalizedDescriptoeResponseKey];
 #ifdef DEBUG
     NSLog (@"%@", errorObject.message);

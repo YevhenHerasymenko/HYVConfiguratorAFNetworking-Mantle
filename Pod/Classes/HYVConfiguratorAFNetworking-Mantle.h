@@ -14,6 +14,6 @@
 #import "HYVConfiguratorAFNetworking.h"
 #import "HYVBasicPostRequest.h"
 #import "HYVBasicGetRequest.h"
-#import "HYVBasicModel.h"
+#import "HYVError.h"
 
 #endif
