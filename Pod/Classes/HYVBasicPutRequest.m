@@ -1,22 +1,21 @@
 //
-//  HYVBasicPostRequest.m
+//  HYVBasicPutRequest.m
 //  Pods
 //
-//  Created by Gerasymenko Yevgen on 20.01.15.
+//  Created by Gerasymenko Yevgen on 21.01.15.
 //
 //
 
-#import "HYVBasicPostRequest.h"
+#import "HYVBasicPutRequest.h"
 
-@implementation HYVBasicPostRequest
+@implementation HYVBasicPutRequest
 
 - (void)execute {
-    [[HYVConfiguratorAFNetworking sharedConfigurator] POST:self.path
+    [[HYVConfiguratorAFNetworking sharedConfigurator] PUT:self.path
                                                parameters:self.parameters
                                                   success:^(AFHTTPRequestOperation *operation, id responseObject) {
                                                       [self executeSuccess:responseObject];
                                                       [self updateSessionWithResponse:operation.response];
-
                                                   } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
                                                       [self executeError:error];
                                                   }];

@@ -16,6 +16,7 @@
 		CE3B71351A6D059000ACA387 /* HYVConfiguratorExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B71341A6D059000ACA387 /* HYVConfiguratorExampleTests.m */; };
 		CED465E21A6E80CC00F65E9D /* HYVUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CED465E11A6E80CC00F65E9D /* HYVUser.m */; };
 		CED465E51A6E80FC00F65E9D /* HYVSignUpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CED465E41A6E80FC00F65E9D /* HYVSignUpRequest.m */; };
+		CED465E81A6FA79C00F65E9D /* HYVGoogleSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CED465E71A6FA79C00F65E9D /* HYVGoogleSearchRequest.m */; };
 		E73F4BA4309588A309D7B472 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B6AB0FFCF6D711C4262B24 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,8 @@
 		CED465E11A6E80CC00F65E9D /* HYVUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVUser.m; sourceTree = "<group>"; };
 		CED465E31A6E80FC00F65E9D /* HYVSignUpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYVSignUpRequest.h; sourceTree = "<group>"; };
 		CED465E41A6E80FC00F65E9D /* HYVSignUpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVSignUpRequest.m; sourceTree = "<group>"; };
+		CED465E61A6FA79C00F65E9D /* HYVGoogleSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYVGoogleSearchRequest.h; sourceTree = "<group>"; };
+		CED465E71A6FA79C00F65E9D /* HYVGoogleSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVGoogleSearchRequest.m; sourceTree = "<group>"; };
 		E0B6AB0FFCF6D711C4262B24 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -119,6 +122,8 @@
 				CED465E11A6E80CC00F65E9D /* HYVUser.m */,
 				CED465E31A6E80FC00F65E9D /* HYVSignUpRequest.h */,
 				CED465E41A6E80FC00F65E9D /* HYVSignUpRequest.m */,
+				CED465E61A6FA79C00F65E9D /* HYVGoogleSearchRequest.h */,
+				CED465E71A6FA79C00F65E9D /* HYVGoogleSearchRequest.m */,
 				CE3B71221A6D059000ACA387 /* Main.storyboard */,
 				CE3B71251A6D059000ACA387 /* Images.xcassets */,
 				CE3B71271A6D059000ACA387 /* LaunchScreen.xib */,
@@ -290,6 +295,7 @@
 			files = (
 				CE3B71211A6D059000ACA387 /* ViewController.m in Sources */,
 				CE3B711E1A6D059000ACA387 /* AppDelegate.m in Sources */,
+				CED465E81A6FA79C00F65E9D /* HYVGoogleSearchRequest.m in Sources */,
 				CED465E21A6E80CC00F65E9D /* HYVUser.m in Sources */,
 				CE3B711B1A6D059000ACA387 /* main.m in Sources */,
 				CED465E51A6E80FC00F65E9D /* HYVSignUpRequest.m in Sources */,

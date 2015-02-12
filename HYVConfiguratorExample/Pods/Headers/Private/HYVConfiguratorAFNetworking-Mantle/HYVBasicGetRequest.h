@@ -1,1 +1,1 @@
-../../../HYVConfiguratorAFNetworking-Mantle/Pod/Classes/HYVBasicGetRequest.h
+../../../../../Pod/Classes/HYVBasicGetRequest.h

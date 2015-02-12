@@ -11,7 +11,6 @@
 
 @interface HYVBasicModel : MTLModel<MTLJSONSerializing>
 
-@property (copy, nonatomic) NSString *message;
 @property (strong, nonatomic) NSNumber *objectId;
 
 @end

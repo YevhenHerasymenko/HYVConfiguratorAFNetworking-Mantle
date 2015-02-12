@@ -17,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [[HYVConfiguratorAFNetworking sharedConfigurator] setBaseUrl:[NSURL URLWithString:@"http://test.toonightapp.com"]];
+    [[HYVConfiguratorAFNetworking sharedConfigurator] setBaseUrl:[NSURL URLWithString:@"http://192.168.1.143:8080/"]];
     [HYVConfiguratorAFNetworking sharedConfigurator].sessionKey = @"Session-Token";
     return YES;
 }

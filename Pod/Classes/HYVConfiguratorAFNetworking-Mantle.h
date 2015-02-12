@@ -6,9 +6,14 @@
 //
 //
 
-#import "HYVConfiguratorAFNetworking.h"
+
 
 #ifndef Pods_HYVConfiguratorAFNetworking_Mantle_h
 #define Pods_HYVConfiguratorAFNetworking_Mantle_h
+
+#import "HYVConfiguratorAFNetworking.h"
+#import "HYVBasicPostRequest.h"
+#import "HYVBasicGetRequest.h"
+#import "HYVError.h"
 
 #endif

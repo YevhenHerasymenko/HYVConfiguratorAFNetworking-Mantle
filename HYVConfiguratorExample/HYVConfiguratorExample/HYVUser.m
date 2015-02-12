@@ -10,4 +10,8 @@
 
 @implementation HYVUser
 
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+    return @{ @"aboutMe" : @"about_me" };
+}
+
 @end
