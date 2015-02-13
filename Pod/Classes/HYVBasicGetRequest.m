@@ -11,7 +11,7 @@
 @implementation HYVBasicGetRequest
 
 - (void)execute {
-    [[HYVConfiguratorAFNetworking sharedConfigurator] GET:self.path
+    self.operation = [[HYVConfiguratorAFNetworking sharedConfigurator] GET:self.path
                                                parameters:self.parameters
                                             success:^(AFHTTPRequestOperation *operation, id responseObject) {
                                                 [self executeSuccess:responseObject];

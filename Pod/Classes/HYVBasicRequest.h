@@ -19,6 +19,8 @@ typedef void(^ErrorCompletion)(HYVBasicModel *response);
 @property (copy, nonatomic) SuccessCompletion successBlock;
 @property (copy, nonatomic) ErrorCompletion errorBlock;
 
+@property (strong, nonatomic) AFHTTPRequestOperation *operation;
+
 - (void)execute;
 - (void)executeSuccess:(id)responseObject;
 - (void)executeError:(NSError *)error;

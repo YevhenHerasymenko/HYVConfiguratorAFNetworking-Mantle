@@ -11,7 +11,7 @@
 @implementation HYVBasicPostRequest
 
 - (void)execute {
-    [[HYVConfiguratorAFNetworking sharedConfigurator] POST:self.path
+    self.operation = [[HYVConfiguratorAFNetworking sharedConfigurator] POST:self.path
                                                parameters:self.parameters
                                                   success:^(AFHTTPRequestOperation *operation, id responseObject) {
                                                       [self executeSuccess:responseObject];

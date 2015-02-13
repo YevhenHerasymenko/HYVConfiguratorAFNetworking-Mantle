@@ -24,18 +24,18 @@
     } error:&error];
     
     
-    AFHTTPRequestOperation *requestOperation = [[HYVConfiguratorAFNetworking sharedConfigurator] HTTPRequestOperationWithRequest:request success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    self.operation =  [[HYVConfiguratorAFNetworking sharedConfigurator] HTTPRequestOperationWithRequest:request success:^(AFHTTPRequestOperation *operation, id responseObject) {
         [self executeSuccess:responseObject];
         [self updateSessionWithResponse:operation.response];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         [self executeError:error];
     }];
-    [AFURLConnectionOperation batchOfRequestOperations:@[requestOperation] progressBlock:^(NSUInteger numberOfFinishedOperations, NSUInteger totalNumberOfOperations) {
+    [AFURLConnectionOperation batchOfRequestOperations:@[self.operation] progressBlock:^(NSUInteger numberOfFinishedOperations, NSUInteger totalNumberOfOperations) {
         NSLog(@"%lu of %lu complete", (unsigned long)numberOfFinishedOperations, (unsigned long)totalNumberOfOperations);
     } completionBlock:^(NSArray *operations) {
         NSLog(@"All operations in batch complete");
     }];
-    [[NSOperationQueue mainQueue] addOperations:@[requestOperation] waitUntilFinished:NO];
+    [[NSOperationQueue mainQueue] addOperations:@[self.operation] waitUntilFinished:NO];
 }
 
 @end

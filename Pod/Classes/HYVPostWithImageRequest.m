@@ -11,7 +11,7 @@
 @implementation HYVPostWithImageRequest
 
 - (void)execute {
-    [[HYVConfiguratorAFNetworking sharedConfigurator] POST:self.path parameters:self.parameters constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+    self.operation = [[HYVConfiguratorAFNetworking sharedConfigurator] POST:self.path parameters:self.parameters constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
         if (self.image) {
             [formData appendPartWithFileData:UIImageJPEGRepresentation(self.image, 1.0)
                                         name:self.objectParamKey
