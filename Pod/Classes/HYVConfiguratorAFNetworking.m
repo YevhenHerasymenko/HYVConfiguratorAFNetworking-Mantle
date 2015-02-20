@@ -44,7 +44,7 @@
                     break;
                 case AFNetworkReachabilityStatusNotReachable:
                 default:
-                    [operationQueue setSuspended:YES];git 
+                    [operationQueue setSuspended:YES];
                     break;
             }
         }];
