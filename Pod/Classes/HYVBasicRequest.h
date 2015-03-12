@@ -11,8 +11,8 @@
 #import "HYVConfiguratorAFNetworking.h"
 #import "HYVBasicModel.h"
 
-typedef void(^SuccessCompletion)(HYVBasicModel *response);
-typedef void(^ErrorCompletion)(HYVBasicModel *response);
+typedef void(^SuccessCompletion)(id response);
+typedef void(^ErrorCompletion)(id response);
 
 @interface HYVBasicRequest : NSObject <HYVRequest>
 

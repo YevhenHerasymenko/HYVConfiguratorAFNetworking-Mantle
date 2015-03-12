@@ -63,7 +63,10 @@ static NSString *const kErrorUserInfoLocalizedDescriptoeResponseKey = @"NSLocali
     if ([error.domain isEqualToString:NSCocoaErrorDomain]) {
         error = [error.userInfo objectForKey:NSUnderlyingErrorKey];
     }
-    errorObject.message = [error.userInfo valueForKey:kErrorUserInfoLocalizedDescriptoeResponseKey];
+    if (error.userInfo) {
+        errorObject.message = [error.userInfo valueForKey:kErrorUserInfoLocalizedDescriptoeResponseKey];
+    }
+    
 #ifdef DEBUG
     NSLog (@"%@", errorObject.message);
 #endif
