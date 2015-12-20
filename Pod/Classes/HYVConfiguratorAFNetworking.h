@@ -11,7 +11,7 @@
 
 static const NSString * kHYVConfiguratorBaseUrl;
 
-@interface HYVConfiguratorAFNetworking : AFHTTPRequestOperationManager
+@interface HYVConfiguratorAFNetworking : AFHTTPSessionManager
 
 @property (copy, nonatomic) NSString *sessionKey;
 @property (readonly, strong, nonatomic) NSString *baseUrlString;

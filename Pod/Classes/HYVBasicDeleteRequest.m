@@ -11,14 +11,12 @@
 @implementation HYVBasicDeleteRequest
 
 - (void)execute {
-    self.operation = [[HYVConfiguratorAFNetworking sharedConfigurator] DELETE:self.path
-                                                  parameters:self.parameters
-                                                     success:^(AFHTTPRequestOperation *operation, id responseObject) {
-                                                         [self executeSuccess:responseObject];
-                                                         [self updateSessionWithResponse:operation.response];
-                                                     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                                                         [self executeError:error];
-                                                     }];
+    self.dataTask = [[HYVConfiguratorAFNetworking sharedConfigurator] DELETE:self.path parameters:self.parameters success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        [self executeSuccess:responseObject];
+        [self updateSessionWithResponse:task.response];
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        [self executeError:error];
+    }];
 }
 
 @end

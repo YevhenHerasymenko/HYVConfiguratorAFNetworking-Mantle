@@ -19,7 +19,7 @@ typedef void(^ErrorCompletion)(id response);
 @property (copy, nonatomic) SuccessCompletion successBlock;
 @property (copy, nonatomic) ErrorCompletion errorBlock;
 
-@property (strong, nonatomic) AFHTTPRequestOperation *operation;
+@property (strong, nonatomic) NSURLSessionDataTask *dataTask;
 
 - (void)execute;
 - (void)executeSuccess:(id)responseObject;

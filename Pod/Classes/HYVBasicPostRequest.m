@@ -11,15 +11,15 @@
 @implementation HYVBasicPostRequest
 
 - (void)execute {
-    self.operation = [[HYVConfiguratorAFNetworking sharedConfigurator] POST:self.path
-                                               parameters:self.parameters
-                                                  success:^(AFHTTPRequestOperation *operation, id responseObject) {
-                                                      [self executeSuccess:responseObject];
-                                                      [self updateSessionWithResponse:operation.response];
-
-                                                  } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                                                      [self executeError:error];
-                                                  }];
+    self.dataTask = [[HYVConfiguratorAFNetworking sharedConfigurator] POST:self.path parameters:self.parameters progress:^(NSProgress * _Nonnull downloadProgress) {
+        
+    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        [self executeSuccess:responseObject];
+        [self updateSessionWithResponse:task.response];
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        [self executeError:error];
+    }];
+    
 }
 
 @end
