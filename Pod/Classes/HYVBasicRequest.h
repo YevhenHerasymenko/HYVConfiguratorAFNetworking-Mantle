@@ -11,13 +11,15 @@
 #import "HYVConfiguratorAFNetworking.h"
 #import "HYVBasicModel.h"
 
-typedef void(^SuccessCompletion)(HYVBasicModel *response);
-typedef void(^ErrorCompletion)(HYVBasicModel *response);
+typedef void(^SuccessCompletion)(id response);
+typedef void(^ErrorCompletion)(id response);
 
 @interface HYVBasicRequest : NSObject <HYVRequest>
 
 @property (copy, nonatomic) SuccessCompletion successBlock;
 @property (copy, nonatomic) ErrorCompletion errorBlock;
+
+@property (strong, nonatomic) NSURLSessionDataTask *dataTask;
 
 - (void)execute;
 - (void)executeSuccess:(id)responseObject;

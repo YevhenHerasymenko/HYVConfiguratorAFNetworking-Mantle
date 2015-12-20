@@ -2,6 +2,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 pod "HYVConfiguratorAFNetworking-Mantle", :path => "../"
 
-pod 'AFNetworking', '~> 2.5.0'
-pod 'Mantle', '~> 1.5.3'
+pod 'AFNetworking', '~> 3.0.4'
+pod 'Mantle', '~> 2.0.6'
 

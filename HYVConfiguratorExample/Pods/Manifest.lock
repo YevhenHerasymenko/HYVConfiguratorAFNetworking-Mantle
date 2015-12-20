@@ -1,44 +1,38 @@
 PODS:
-  - AFNetworking (2.5.0):
-    - AFNetworking/NSURLConnection (= 2.5.0)
-    - AFNetworking/NSURLSession (= 2.5.0)
-    - AFNetworking/Reachability (= 2.5.0)
-    - AFNetworking/Security (= 2.5.0)
-    - AFNetworking/Serialization (= 2.5.0)
-    - AFNetworking/UIKit (= 2.5.0)
-  - AFNetworking/NSURLConnection (2.5.0):
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.5.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.5.0)
-  - AFNetworking/Security (2.5.0)
-  - AFNetworking/Serialization (2.5.0)
-  - AFNetworking/UIKit (2.5.0):
-    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
-  - HYVConfiguratorAFNetworking-Mantle (0.1.2.2):
-    - AFNetworking (~> 2.5.0)
-    - Mantle (~> 1.5.3)
-  - Mantle (1.5.4):
-    - Mantle/extobjc (= 1.5.4)
-  - Mantle/extobjc (1.5.4)
+  - HYVConfiguratorAFNetworking-Mantle (0.6):
+    - AFNetworking (~> 3.0.4)
+    - Mantle (~> 2.0.6)
+  - Mantle (2.0.6):
+    - Mantle/extobjc (= 2.0.6)
+  - Mantle/extobjc (2.0.6)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.5.0)
+  - AFNetworking (~> 3.0.4)
   - HYVConfiguratorAFNetworking-Mantle (from `../`)
-  - Mantle (~> 1.5.3)
+  - Mantle (~> 2.0.6)
 
 EXTERNAL SOURCES:
   HYVConfiguratorAFNetworking-Mantle:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
-  HYVConfiguratorAFNetworking-Mantle: 99ca97fbfddf1fb174806ad5d26bd221a7e2d8de
-  Mantle: d5fbaf30fbc58031223af13812c060e15934a1fe
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  HYVConfiguratorAFNetworking-Mantle: 4b2e746da99c44c4213b64aaa08fb965f42b36da
+  Mantle: 299966b00759634931699f69cb6a30b9239b944d
 
-COCOAPODS: 0.36.0.beta.1
+COCOAPODS: 0.39.0

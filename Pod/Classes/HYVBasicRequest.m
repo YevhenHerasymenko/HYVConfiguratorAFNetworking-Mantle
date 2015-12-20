@@ -59,12 +59,21 @@ static NSString *const kErrorUserInfoLocalizedDescriptoeResponseKey = @"NSLocali
 
 - (void)mappingUserError:(NSError *)error {
     HYVError *errorObject = [[HYVError alloc] init];
-    errorObject.message = [error.userInfo valueForKey:kErrorUserInfoLocalizedDescriptoeResponseKey];
+    
+    if ([error.domain isEqualToString:NSCocoaErrorDomain]) {
+        error = [error.userInfo objectForKey:NSUnderlyingErrorKey];
+    }
+    if (error.userInfo) {
+        errorObject.message = [error.userInfo valueForKey:kErrorUserInfoLocalizedDescriptoeResponseKey];
+    }
+    
 #ifdef DEBUG
     NSLog (@"%@", errorObject.message);
 #endif
-    self.errorBlock(errorObject);
-    
+    NSAssert(self.errorBlock,@"Error block wasn`t initialize");
+    if (self.errorBlock) {
+        self.errorBlock(errorObject);
+    }
 }
 
 #pragma mark - Session
