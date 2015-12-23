@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFNetworking.h"
+@import AFNetworking;
 
 static const NSString * kHYVConfiguratorBaseUrl;
 

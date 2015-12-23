@@ -9,7 +9,6 @@
 #import "HYVConfiguratorAFNetworking.h"
 #import "AFNetworkActivityIndicatorManager.h"
 
-
 @interface HYVConfiguratorAFNetworking()
 
 @property (readwrite, strong, nonatomic) NSString *baseUrlString;

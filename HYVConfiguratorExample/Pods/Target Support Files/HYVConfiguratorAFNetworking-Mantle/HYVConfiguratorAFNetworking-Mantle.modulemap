@@ -1,0 +1,6 @@
+framework module HYVConfiguratorAFNetworking_Mantle {
+  umbrella header "HYVConfiguratorAFNetworking-Mantle-umbrella.h"
+
+  export *
+  module * { export * }
+}

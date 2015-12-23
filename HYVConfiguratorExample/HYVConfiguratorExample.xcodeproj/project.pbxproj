@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF2286AFC9430DE4CA6CDF1E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF446BE7EF297B734D4C2B04 /* Pods.framework */; };
 		CE3B711B1A6D059000ACA387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B711A1A6D059000ACA387 /* main.m */; };
 		CE3B711E1A6D059000ACA387 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B711D1A6D059000ACA387 /* AppDelegate.m */; };
 		CE3B71211A6D059000ACA387 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B71201A6D059000ACA387 /* ViewController.m */; };
@@ -17,7 +18,6 @@
 		CED465E21A6E80CC00F65E9D /* HYVUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CED465E11A6E80CC00F65E9D /* HYVUser.m */; };
 		CED465E51A6E80FC00F65E9D /* HYVSignUpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CED465E41A6E80FC00F65E9D /* HYVSignUpRequest.m */; };
 		CED465E81A6FA79C00F65E9D /* HYVGoogleSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CED465E71A6FA79C00F65E9D /* HYVGoogleSearchRequest.m */; };
-		E73F4BA4309588A309D7B472 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B6AB0FFCF6D711C4262B24 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +33,7 @@
 /* Begin PBXFileReference section */
 		3DA1C4901AC4236B9DEB3CCE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		99CB19DFC0FCB9D1EA8AD0C2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BF446BE7EF297B734D4C2B04 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3B71151A6D059000ACA387 /* HYVConfiguratorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYVConfiguratorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3B71191A6D059000ACA387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3B711A1A6D059000ACA387 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		CED465E41A6E80FC00F65E9D /* HYVSignUpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVSignUpRequest.m; sourceTree = "<group>"; };
 		CED465E61A6FA79C00F65E9D /* HYVGoogleSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYVGoogleSearchRequest.h; sourceTree = "<group>"; };
 		CED465E71A6FA79C00F65E9D /* HYVGoogleSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVGoogleSearchRequest.m; sourceTree = "<group>"; };
-		E0B6AB0FFCF6D711C4262B24 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E73F4BA4309588A309D7B472 /* libPods.a in Frameworks */,
+				AF2286AFC9430DE4CA6CDF1E /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 		6F56ABAA8B2D0590F0BF1BC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E0B6AB0FFCF6D711C4262B24 /* libPods.a */,
+				BF446BE7EF297B734D4C2B04 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
