@@ -7,7 +7,7 @@
 //
 
 #import <Mantle/MTLModel.h>
-#import "MTLJSONAdapter.h"
+#import <Mantle/MTLJSONAdapter.h>
 
 @interface HYVBasicModel : MTLModel<MTLJSONSerializing>
 
